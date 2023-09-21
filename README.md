@@ -22,13 +22,11 @@ numpy == 1.18.5
 ```
 
 The pre-trained model for the BDD100K MOT dataset can be downloaded from
-[here](http://u.arizona.edu/~yman/percepguard/models/bdd100k.zip).
+[Google Drive](https://drive.google.com/file/d/1XBJB4kghlI4ysbiUF5ftGRBPIgVmk6ZF).
 Unzip it into `models`:
 ```
 mkdir models
-cd models
-wget http://u.arizona.edu/~yman/percepguard/models/bdd100k.zip
-unzip bdd100k.zip
+unzip /path/to/bdd100k.zip -d models
 ```
 
 To use the pre-trained model, see `demo.py` for a simple example:
